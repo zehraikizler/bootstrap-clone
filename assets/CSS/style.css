@@ -1,16 +1,33 @@
 /* Navbar CSS Start */
 .navbar {
-    background-color: #7952b3 !important;
+  background-color: #7952b3 !important;
 }
 
 .btn-download {
-    color: #ffe484; 
-    border: 1px solid #ffe484;
+  color: #ffe484;
+  border: 1px solid #ffe484;
 }
 
 .btn-download:hover {
-    background-color: #ffe484;
-    color: black;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1)
+  background-color: #ffe484;
+  color: black;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 /* Navbar CSS End */
+
+/* Hero Section Start */
+
+.hero-section-bg {
+  background: linear-gradient(165deg, #f7f5fb 50%, #fff 50%);
+}
+
+.logo-color {
+  color: #8c13fd;
+  transform: rotate(-20deg);
+}
+
+.btn-started-bg {
+  background: #7952b3;
+}
+
+/* Hero Section End */
