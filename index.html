@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="assets/IMG/favicon.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="assets/IMG/favicon.png"
+      type="image/x-icon"
+    />
     <title>Bootstrap</title>
     <!--Bootstrap CSS-->
     <link
@@ -150,8 +154,10 @@
     <div class="hero-section-bg">
       <div class="container">
         <div class="row pt-5">
-          <div class="col-7">
-            <h1 class="mb-3" style="font-size: 4rem">
+          <div
+            class="col-12 col-md-7 order-2 order-md-1 text-center text-md-start"
+          >
+            <h1 class="mb-3 lh-1" style="font-size: 4rem">
               Build fast, responsive sites with Bootstrap
             </h1>
             <p
@@ -166,11 +172,14 @@
             <div class="mb-3">
               <a
                 href="#"
-                class="btn btn-started-bg text-white px-4 py-2 fs-4 me-2"
+                class="btn btn-started-bg text-white px-4 py-2 fs-4 me-2 d-block d-md-inline-block mb-3 mb-md-0"
               >
                 Get started
               </a>
-              <a href="#" class="btn btn-outline-secondary px-4 py-2 fs-4">
+              <a
+                href="#"
+                class="btn btn-outline-secondary px-4 py-2 fs-4 d-block d-md-inline-block mb-3 mb-md-0"
+              >
                 Download
               </a>
             </div>
@@ -183,28 +192,19 @@
               <a href="#" class="text-secondary">All releases</a>
             </p>
           </div>
-          <div class="col-5 d-flex justify-content-center align-items-center">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="280"
-              height="280"
-              class="d-block my-1 logo-color"
-              viewBox="0 0 118 94"
-              role="img"
-            >
-              <title>Bootstrap</title>
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"
-                fill="currentColor"
-              ></path>
-            </svg>
+          <div class="col-12 col-md-5 order-1 order-md-2">
+            <div style="width: auto">
+              <img
+                src="assets/IMG/bootstrap.svg"
+                style="object-fit: contain"
+                alt="bootstrap"
+              />
+            </div>
           </div>
         </div>
         <div class="row">
           <div
-            class="col-4 mt-4 p-3 rounded d-flex gap-3"
+            class="col-12 col-sm-8 col-md-4 mt-4 p-3 rounded d-flex gap-3"
             style="background-color: #f2f2f2"
           >
             <img
@@ -488,75 +488,156 @@
     <!-- Official Themes End -->
 
     <!-- Footer Start -->
-    <footer class="container py-4" style="background-color: #f8f9fa;">
+    <footer class="container py-4" style="background-color: #f8f9fa">
       <div class="row me-0 py-5 my-5">
-        <div class="col-3 me-5" style="font-size: 14px;">
-          <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
-            <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="40"
-            height="32"
-            class="d-block me-2"
-            viewBox="0 0 118 94"
-            role="img"
-            style="color: #495057;"
+        <div class="col-3 me-5" style="font-size: 14px">
+          <a
+            href="/"
+            class="d-flex align-items-center mb-3 link-dark text-decoration-none"
           >
-            <title>Bootstrap</title>
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"
-              fill="currentColor"
-            ></path>
-          </svg>
-            <span style="font-size: 20px;">Bootstrap</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="32"
+              class="d-block me-2"
+              viewBox="0 0 118 94"
+              role="img"
+              style="color: #495057"
+            >
+              <title>Bootstrap</title>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"
+                fill="currentColor"
+              ></path>
+            </svg>
+            <span style="font-size: 20px">Bootstrap</span>
           </a>
-          <p class="text-muted">Designed and built with all the love in the world by the <a href="#" style="text-decoration: none; color: #495057;">Bootstrap team</a> with the help of our <a href="#" style="text-decoration: none; color: #495057;">contributors</a>.</p>
-          <p class="text-muted">Code licensed <a href="#" style="text-decoration: none; color: #495057;">MIT</a>, docs <a href="#" style="text-decoration: none; color: #495057;">CC BY 3.0</a>.</p>
+          <p class="text-muted">
+            Designed and built with all the love in the world by the
+            <a href="#" style="text-decoration: none; color: #495057"
+              >Bootstrap team</a
+            >
+            with the help of our
+            <a href="#" style="text-decoration: none; color: #495057"
+              >contributors</a
+            >.
+          </p>
+          <p class="text-muted">
+            Code licensed
+            <a href="#" style="text-decoration: none; color: #495057">MIT</a>,
+            docs
+            <a href="#" style="text-decoration: none; color: #495057"
+              >CC BY 3.0</a
+            >.
+          </p>
           <p class="text-muted">Currently v5.1.3.</p>
         </div>
-    
+
         <div class="col-2 pe-0 ps-4 ms-4">
-          <h5 style="font-size: 20px;" class="mb-2">Links</h5>
+          <h5 style="font-size: 20px" class="mb-2">Links</h5>
           <ul class="nav flex-column gap-1">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: #495057;">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: #495057;">Docs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: #495057;">Examples</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: #495057;">Themes</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: #495057;">Blog</a></li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0" style="color: #495057">Home</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0" style="color: #495057">Docs</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0" style="color: #495057"
+                >Examples</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0" style="color: #495057">Themes</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0" style="color: #495057">Blog</a>
+            </li>
           </ul>
         </div>
-    
+
         <div class="col-2 px-0">
-          <h5 style="font-size: 20px;" class="mb-2">Guides</h5>
+          <h5 style="font-size: 20px" class="mb-2">Guides</h5>
           <ul class="nav flex-column gap-1">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: #495057;">Getting started</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: #495057;">Starter template"</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: #495057;">Webpack</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: #495057;">Parcel</a></li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0" style="color: #495057"
+                >Getting started</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0" style="color: #495057"
+                >Starter template"</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0" style="color: #495057"
+                >Webpack</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0" style="color: #495057">Parcel</a>
+            </li>
           </ul>
         </div>
-    
+
         <div class="col-2 px-0">
-          <h5 style="font-size: 20px;" class="mb-2">Projects</h5>
+          <h5 style="font-size: 20px" class="mb-2">Projects</h5>
           <ul class="nav flex-column gap-1">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: #495057;">Bootstrap 5</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: #495057;">Bootstrap 4</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: #495057;">Icons</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: #495057;">RFS</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: #495057;">npm starter</a></li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0" style="color: #495057"
+                >Bootstrap 5</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0" style="color: #495057"
+                >Bootstrap 4</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0" style="color: #495057">Icons</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0" style="color: #495057">RFS</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0" style="color: #495057"
+                >npm starter</a
+              >
+            </li>
           </ul>
         </div>
-    
+
         <div class="col-2 px-0">
-          <h5 style="font-size: 20px;" class="mb-2">Community</h5>
+          <h5 style="font-size: 20px" class="mb-2">Community</h5>
           <ul class="nav flex-column gap-1">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: #495057;">Issues</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: #495057;">Discussions</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: #495057;">Corporate sponsors</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: #495057;">Open Collective</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: #495057;">Slack</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: #495057;">Stack Overflow</a></li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0" style="color: #495057">Issues</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0" style="color: #495057"
+                >Discussions</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0" style="color: #495057"
+                >Corporate sponsors</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0" style="color: #495057"
+                >Open Collective</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0" style="color: #495057">Slack</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0" style="color: #495057"
+                >Stack Overflow</a
+              >
+            </li>
           </ul>
         </div>
       </div>
